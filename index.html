@@ -17,7 +17,7 @@
   <link href="./assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="./assets/demo/demo.css" rel="stylesheet" />
-  <script src="main.js"></script>
+ 
 </head>
 
 <body class="profile-page sidebar-collapse">
@@ -99,19 +99,25 @@
                   <a href="#pablo" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-dribbble"></i></a>
                   <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
                   <a href="#pablo" class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                <h6>🎧Music LoVer🎧 | 🏊‍♀️swimmer🥽 | 🧺basketball🏀 | 🚲cyclist🚴‍♀️ | 🏍MotoGp🏍</h6>
                 </div>
               </div>
             </div>
           </div>
-          <div class="description text-center">
-            <p>Hello world ,lets get to know each other more!. <'insert bot page link here'> </p>
-            <p> hi this page is a demo cum profile page to introduce my self as a script kiddi to to world. feed back are welcome | do let me kno if we can do a project/work together</p>
+          <div class="description text-center" style="color: blueviolet;">
+            <p>Ive never been a millionaire but I just know Id be really good at it.</p>
+            <p> </p>
+            <p> From being a Mechanical Engineer who took participation in 
+              <a href="https://www.bajasaeindia.org/" style="color: black;"> SAE baja</a>, having 1.5 years 
+              of experience as a Front-end Developer, Ive learned I dont
+               know anything. Have also learned that people will pay for what I know. Life is good.</p><br>
+              <p>lets see if im able to elevate this small talk to medium talk.</p>
           </div>
         </div>
       </div>
      
     </div>
-    <br>
+    <br><br><br>
     <div class="main main-raised">
     <div class="card card-nav-tabs">
       <div class="card-header card-header-primary">
@@ -121,19 +127,24 @@
             <ul class="nav nav-tabs" data-tabs="tabs">
               <li class="nav-item">
                 <a class="nav-link active" href="#profile" data-toggle="tab">
-                  <i class="material-icons">face</i>
-                  Profile
+                  <i class="material-icons">book</i>📚
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#messages" data-toggle="tab">
-                  <i class="material-icons">chat</i>
-                  Messages
+                  <i class="material-icons">nature_people</i>
+                    
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#settings" data-toggle="tab">
-                  <i class="material-icons">build</i>
+                  <i class="material-icons">tapas</i>
+                  Settings
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#settings" data-toggle="tab">
+                  <i class="material-icons">sports_handball</i>
                   Settings
                 </a>
               </li>
@@ -144,13 +155,25 @@
       <div class="card-body ">
         <div class="tab-content text-center">
           <div class="tab-pane active" id="profile">
-            <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+            <p> I will be the leader of a company that ends up being worth billions of dollars, 
+              because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a
+               responsibility that I have, to push possibilities, to show people, this is the level that
+                things could be at. I think that&#x2019;s a responsibility that I have, to push possibilities,
+                 to show people, this is the level that things could be at. </p>
           </div>
           <div class="tab-pane" id="messages">
-            <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
+            <p> I think that&#x2019;s a responsibility that I have, to push possibilities, to show people,
+               this is the level that things could be at. I will be the leader of a company that ends up 
+               being worth billions of dollars, because I got the answers. I understand culture. I am the 
+               nucleus. I think that&#x2019;s a responsibility that I have, to push possibilities, to show 
+               people, this is the level that things could be at.</p>
           </div>
           <div class="tab-pane" id="settings">
-            <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+            <p>I think that&#x2019;s a responsibility that I have, to push possibilities, to show people, 
+              this is the level that things could be at. So when you get something that has the name Kanye 
+              West on it, it&#x2019;s supposed to be pushing the furthest possibilities. I will be the leader
+               of a company that ends up being worth billions of dollars, because I got the answers. I 
+               understand culture. I am the nucleus.</p>
           </div>
         </div>
       </div>
@@ -163,7 +186,7 @@
     <div class="radial">
       <button class="fa fa-paper-plane fa-2x" id="fa-1"></button>
       <button class="fa fa-home fa-2x" id="fa-2"></button>
-      <button class="fa fa-search fa-2x" id="fa-3"></button>
+      <button class="fa fa-music fa-2x" id="fa-3" data-toggle="modal" data-target="#myModal"></button>
       <button class="fab">
         <div class="fa fa-plus fa-2x" id="plus"></div>
       </button>
@@ -171,7 +194,30 @@
   </div>
   <!-- floating action button ends -->
 
-  
+   <!-- Modal -->
+   <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <h4 class="modal-title" style="color: chartreuse;">my 🎧Music</h4>
+         
+        </div>
+        <div class="modal-body">
+          <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/608481906&color=%23416bad&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            <a href="https://soundcloud.com/shubham-singh-bohara" title="Shubham singh bohara" target="_blank" style="color: #cccccc; text-decoration: none;">Shubham singh bohara</a> ·
+             <a href="https://soundcloud.com/shubham-singh-bohara/sets/dont-mind" title="zone🔊" target="_blank" style="color: #cccccc; text-decoration: none;">zone🔊</a></div>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
   
     <footer class="footer footer-default">
       <div class="container">
@@ -215,6 +261,6 @@
     <!--  Google Maps Plugin    -->
     <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/material-kit.js?v=2.0.7" type="text/javascript"></script>
- 
+    <script src="main.js"></script>
   </body>
 </html>  

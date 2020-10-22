@@ -82,3 +82,32 @@
     -webkit-transform: translate(10px, -110px);
             transform: translate(10px, -110px);
   }
+
+  .radial.open{
+    background: steelblue;
+  }
+ /* music modal background */
+  .modal-content{
+    background: linear-gradient(84deg, #041336, #169e9f);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+  }
+  
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
