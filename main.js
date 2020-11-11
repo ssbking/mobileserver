@@ -41,7 +41,7 @@ function resume(){
             className: 'btn-info',
             callback: function(){
                 console.log('donlode the resume clicked');
-                window.location = '../resume/ssbking_github_io_testhtml.pdf';
+                window.location = './assets/ssbking_github_io_testhtml.pdf';
             }
         }
     }
