@@ -91,9 +91,18 @@
     background: linear-gradient(84deg, #041336, #169e9f);
     background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 17s ease infinite;
-    -moz-animation: AnimationName 17s ease infinite;
-    animation: AnimationName 17s ease infinite;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+  }
+
+  .profile-page{
+    background: linear-gradient(84deg, #000000, #dff800);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
   }
   
 @-webkit-keyframes AnimationName {
